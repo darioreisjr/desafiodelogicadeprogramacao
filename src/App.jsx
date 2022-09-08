@@ -7,9 +7,10 @@ import ComParametro from "./components/basicos/ComParametro";
 import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
 import Familia from "./components/basicos/Familia";
-import FamiliaMembro from './components/basicos/FamiliaMembro';
+import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
-import TabelaProdutos from './components/repeticao/TabelaProdutos';
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from './components/condicional/ParOuImpar';
 
 export default function App() {
   return (
@@ -17,20 +18,23 @@ export default function App() {
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
+        <Card titulo=" #08 - Renderização Condicional" color="#982395">
+          <ParOuImpar numero={10} />
+        </Card>
 
         <Card titulo=" #07 - Desafio Repetição" color="#3A9AD9">
-          <TabelaProdutos/>
+          <TabelaProdutos />
         </Card>
 
         <Card titulo=" #06 - Repetição" color="#FF4C65">
-          <ListaAlunos/>
-        </Card> 
-        
+          <ListaAlunos />
+        </Card>
+
         <Card titulo=" #05 - Componente com Filhos" color="#00C8f8">
           <Familia sobrenome="Silva">
-            <FamiliaMembro nome="Pedro"/>
+            <FamiliaMembro nome="Pedro" />
             <FamiliaMembro nome="Ana" />
-            <FamiliaMembro nome="Gustavo"/>
+            <FamiliaMembro nome="Gustavo" />
           </Familia>
         </Card>
 
