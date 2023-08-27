@@ -41,7 +41,7 @@ export default function Desafio2() {
               </Label>
               <Input
                 className="w-[300] max-w-[600px] mb-4 mt-4"
-                type="text" value={nome} onInput={handleChange}
+                type="text" value={nome} onChange={handleChange}
               />
               <Button type="submit" variant={"secondary"} size={"lg"} onClick={handleClick} >
                 Enviar
