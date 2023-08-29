@@ -44,7 +44,7 @@ export default function Desafio4() {
             type="number"
             min={0}
             value={primeiroNumero}
-            onChange={(e) => setPrimeiroNumero(e.target.value)}
+            onChange={(e) => setPrimeiroNumero(Number(e.target.value))}
           />
           <Label className=" text-base">
             Digite outro valor
@@ -54,7 +54,7 @@ export default function Desafio4() {
             type="number"
             min={0}
             value={segundoNumero}
-            onChange={(e) => setSegundoNumero(e.target.value)}
+            onChange={(e) => setSegundoNumero(Number(e.target.value))}
           />
           <Button type="submit" variant={"secondary"} size={"lg"} onClick={somar}>
             Enviar
