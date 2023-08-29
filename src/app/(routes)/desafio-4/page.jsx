@@ -12,11 +12,10 @@ export default function Desafio4() {
   const [segundoNumero, setSegundoNumero] = useState(0);
   const [resultado, setResultado] = useState(0);
 
-  const somar: (e: React.ChangeEvent<HTMLInputElement>) => void = (e) => {
+  const somar= (e) => {
     e.preventDefault();
     setResultado(primeiroNumero + segundoNumero)
   }
-
 
   const refreshPage = () => {
     window.location.reload()
@@ -70,14 +69,7 @@ export default function Desafio4() {
               </Button>
             </div>
           )}
-
-
-
-
-
         </form>
-
-
       </div>
     </div>
   )
