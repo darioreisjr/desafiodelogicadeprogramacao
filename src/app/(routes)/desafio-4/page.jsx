@@ -43,7 +43,6 @@ export default function Desafio4() {
             className="w-[300] max-w-[600px] mb-4 mt-4"
             type="number"
             min={0}
-            value={primeiroNumero}
             onChange={(e) => setPrimeiroNumero(Number(e.target.value))}
           />
           <Label className=" text-base">
@@ -53,7 +52,6 @@ export default function Desafio4() {
             className="w-[300] max-w-[600px] mb-4 mt-4"
             type="number"
             min={0}
-            value={segundoNumero}
             onChange={(e) => setSegundoNumero(Number(e.target.value))}
           />
           <Button type="submit" variant={"secondary"} size={"lg"} onClick={somar}>
