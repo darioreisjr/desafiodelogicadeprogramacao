@@ -24,7 +24,7 @@ export default function Desafio6() {
 
   return (
     <div className="flex justify-center items-center flex-col">
-      <h1 className="text-2xl mt-7 mb-7">Desafio 05</h1>
+      <h1 className="text-2xl mt-7 mb-7">Desafio 06</h1>
       <p className="text-base text-justify m-4">
         Faça um programa que leia um número inteiro e mostre o seu antecessor e seu sucessor<br />
         Ex: <br />

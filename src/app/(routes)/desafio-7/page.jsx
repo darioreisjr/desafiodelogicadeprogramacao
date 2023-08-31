@@ -24,7 +24,7 @@ export default function Desafio7() {
 
   return (
     <div className="flex justify-center items-center flex-col">
-      <h1 className="text-2xl mt-7 mb-7">Desafio 05</h1>
+      <h1 className="text-2xl mt-7 mb-7">Desafio 07</h1>
       <p className="text-base text-justify m-4">
         Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a terça parte<br />
         Ex: <br />
