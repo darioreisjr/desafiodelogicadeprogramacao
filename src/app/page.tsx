@@ -241,6 +241,81 @@ export default function Home() {
             </Button>
           </CardFooter>
         </Card>
+        <Card className="w-[400px] md:w-[300px]">
+          <CardHeader>
+            <CardTitle>Desafio 10</CardTitle>
+            <CardDescription>Resumo do desafio de lógica</CardDescription>
+          </CardHeader>
+          <CardFooter className="flex justify-between">
+            <Button>
+              <Link
+                href="https://github.com/darioreisjr/desafiodelogicadeprogramacao/tree/main/src/app/(routes)/desafio-10"
+                target="_blank"
+              >
+                GitHub
+              </Link>
+            </Button>
+            <Button
+              variant="ghost"
+            >
+              <Link
+                href="/desafio-10"
+              >
+                Deploy
+              </Link>
+            </Button>
+          </CardFooter>
+        </Card>
+        <Card className="w-[400px] md:w-[300px]">
+          <CardHeader>
+            <CardTitle>Desafio 11</CardTitle>
+            <CardDescription>Resumo do desafio de lógica</CardDescription>
+          </CardHeader>
+          <CardFooter className="flex justify-between">
+            <Button>
+              <Link
+                href="https://github.com/darioreisjr/desafiodelogicadeprogramacao/tree/main/src/app/(routes)/desafio-11"
+                target="_blank"
+              >
+                GitHub
+              </Link>
+            </Button>
+            <Button
+              variant="ghost"
+            >
+              <Link
+                href="/desafio-11"
+              >
+                Deploy
+              </Link>
+            </Button>
+          </CardFooter>
+        </Card>
+        <Card className="w-[400px] md:w-[300px]">
+          <CardHeader>
+            <CardTitle>Desafio 12</CardTitle>
+            <CardDescription>Resumo do desafio de lógica</CardDescription>
+          </CardHeader>
+          <CardFooter className="flex justify-between">
+            <Button>
+              <Link
+                href="https://github.com/darioreisjr/desafiodelogicadeprogramacao/tree/main/src/app/(routes)/desafio-12"
+                target="_blank"
+              >
+                GitHub
+              </Link>
+            </Button>
+            <Button
+              variant="ghost"
+            >
+              <Link
+                href="/desafio-12"
+              >
+                Deploy
+              </Link>
+            </Button>
+          </CardFooter>
+        </Card>
       </div>
     </>
   )
