@@ -40,7 +40,7 @@ export default function Desafio8() {
           {!valorDelta ? (
             <>
               <Label className=" text-base ">
-                Digite o valor de A::
+                Digite o valor de A:
               </Label>
               <Input
                 className="w-[300] max-w-[600px] mb-4 mt-4"
