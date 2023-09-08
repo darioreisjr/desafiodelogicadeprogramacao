@@ -341,6 +341,31 @@ export default function Home() {
             </Button>
           </CardFooter>
         </Card>
+        <Card className="w-[400px] md:w-[300px]">
+          <CardHeader>
+            <CardTitle>Desafio 14</CardTitle>
+            <CardDescription>Resumo do desafio de lógica</CardDescription>
+          </CardHeader>
+          <CardFooter className="flex justify-between">
+            <Button>
+              <Link
+                href="https://github.com/darioreisjr/desafiodelogicadeprogramacao/tree/main/src/app/(routes)/desafio-14"
+                target="_blank"
+              >
+                GitHub
+              </Link>
+            </Button>
+            <Button
+              variant="ghost"
+            >
+              <Link
+                href="/desafio-14"
+              >
+                Deploy
+              </Link>
+            </Button>
+          </CardFooter>
+        </Card>
       </div>
     </>
   )
