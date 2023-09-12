@@ -36,16 +36,6 @@ const Header = () => {
             Portifolio
           </Link>
         </MenubarTrigger>
-        <MenubarTrigger>
-          <Link href="https://github.com/darioreisjr" target="_blank">
-            <Github />
-          </Link>
-        </MenubarTrigger>
-        <MenubarTrigger>
-          <Link href="https://www.linkedin.com/in/darioreisjr" target="_blank">
-            <Linkedin  />
-          </Link>
-        </MenubarTrigger>
       </MenubarMenu>
     </Menubar>
 
