@@ -7,9 +7,6 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { RefreshCcw } from "lucide-react"
 
-
-
-
 export default function Desafio23() {
   const [nome, setNome] = useState("");
   const [sexo, setSexo] = useState("");
